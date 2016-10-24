@@ -1,0 +1,51 @@
+//Not all header files are used but they have been included by default by HackerRank.
+
+#include <map>
+#include <set>
+#include <list>
+#include <cmath>
+#include <ctime>
+#include <deque>
+#include <queue>
+#include <stack>
+#include <string>
+#include <bitset>
+#include <cstdio>
+#include <limits>
+#include <vector>
+#include <climits>
+#include <cstring>
+#include <cstdlib>
+#include <fstream>
+#include <numeric>
+#include <sstream>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main(){
+    int N;
+    cin >> N;
+    
+    if(N%2 != 0) //if N IS ODD
+    {
+        cout<<"Weird" ;   
+    }
+    
+    if(N%2==0 && N>1 && N<6) //if N IS Even
+    {
+        cout<<"Not Weird"  ;  
+    }
+    
+        if(N%2==0 && N>5 && N<21) //if N IS Even
+    {
+        cout<<"Weird"    ;
+    }
+    
+    if(N%2==0 && N>20) //if N IS ODD
+    {
+        cout<<"Not Weird"    ;
+    }
+    return 0;
+}
